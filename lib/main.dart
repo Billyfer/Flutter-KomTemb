@@ -7,7 +7,7 @@ import 'dasboard.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  // Inisialisasi FirebaseOptions
+
   FirebaseOptions firebaseOptions = FirebaseOptions(
       apiKey: "AIzaSyA3Bz6mBTk2D6VXmdIC-n93ABZxIFcxAIs",
       authDomain: "komtemb.firebaseapp.com",
@@ -36,7 +36,8 @@ class MyApp extends StatelessWidget {
       routes: {
         '/login': (context) => LoginPage(),
         '/register': (context) => RegisterPage(),
-        '/Dashboard': (context) => DashboardPage(app: Firebase.app()),
+        '/Dashboard': (context) => DashboardPage(),
+        '/newcomic': (context) => DashboardPage(),
       },
     );
   }

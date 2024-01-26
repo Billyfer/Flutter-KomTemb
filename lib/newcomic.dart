@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'dart:async';
 import 'DashboardMenu.dart'; 
 
-class DashboardPage extends StatelessWidget {
+class NewComicPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
