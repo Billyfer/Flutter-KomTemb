@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "733286684302",
+    "project_id": "komtemb",
+    "storage_bucket": "komtemb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:733286684302:android:f06b686f7779a820869bdf",
+        "android_client_info": {
+          "package_name": "com.example.komtomb"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCf4DXaV1dhV-k4-5KZh5yRX_s2Pgit-fg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
